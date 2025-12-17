@@ -1,0 +1,26 @@
+.snakeBodyStyle {
+  list-style-type: none;
+  outline: 1px black solid;
+  width: 10px;
+  height: 10px;
+  background: red;
+  margin: 0;
+  padding: 0;
+}
+
+#tablero {
+  display: grid;
+  grid-template-columns: repeat(10, 30px); /* 10 columnas */
+  grid-template-rows: repeat(10, 30px); /* 10 filas */
+  gap: 2px;
+  background: #eee;
+  width: 318px;
+  height: 318px;
+  margin: 0 auto;
+}
+
+.celda {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+}
